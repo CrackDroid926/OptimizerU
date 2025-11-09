@@ -1,0 +1,5 @@
+////////////////////////// ENGLISH //////////////////////////
+At the moment there is nothing, but there will be batch files for optimization here according to what I have planned, because I don't like putting code in the program as there may be errors, and batch files are safer, so to speak, because you select and apply the optimization, open the bat file, reduce the program size, and I can release more updates by adding optimization, so I will separate the code from the launcher that only executes the optimization files
+
+///////////////////////// SPANISH ///////////////////////////
+Por el momento no hay nada, pero habrá archivos por lotes para la optimización aquí según lo que tengo planeado, porque no me gusta poner código en el programa ya que puede haber errores, y los archivos por lotes son más seguros, por así decirlo, porque seleccionas y aplicas la optimización, abres el archivo bat, reduces el tamaño del programa, y puedo lanzar más actualizaciones añadiendo optimizaciones, así que separaré el código del lanzador que solo ejecuta los archivos de optimización

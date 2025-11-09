@@ -1,0 +1,69 @@
+==================================================
+        OptimizerU — Security Information
+                Version: Alpha 1.0
+           Created by: CrackDroid926
+==================================================
+
+IS THIS PROGRAM A VIRUS?
+NO. OptimizerU is an open-source system optimizer.
+- Public source code at: https://github.com/Crackdroid926/OptimizerU  
+- It contains no malware, spyware, cryptocurrency miners, or advertisements.
+- It is 100% free and non-profit.
+
+WHY DOES POWERSHELL OR COMMAND PROMPT OPEN?
+The program needs to run Windows system commands to optimize your PC.  
+This is done through:
+  * PowerShell (an official Microsoft tool)
+  * CMD (Command Prompt)
+Both are standard components of Windows, just like File Explorer.
+
+Examples of commands that are executed:
+  * ipconfig /flushdns → Clears DNS cache
+  * sfc /scannow → Repairs system files
+  * powercfg -h off → Disables hibernation to free up disk space
+  * del /q /f "%TEMP%\\*" → Deletes temporary files
+
+WHY DOES IT REQUEST ADMINISTRATOR PRIVILEGES?
+Some optimizations (such as repairing the system, cleaning the Windows Update cache, or disabling services) require elevated privileges.  
+This is normal and safe. If you don't trust it, you can:
+  * Review the source code on GitHub
+  * Run only "low-risk" optimizations
+  * Use "Recommended" mode (safer)
+
+FILES CREATED BY THE PROGRAM:
+  * config.json → Saves your preferences (language, expert mode, etc.)
+  * debug.log → Only if you enable "Debug Mode" (for developers)
+  * INFO_ES.txt / INFO_EN.txt → This file and its Spanish version
+
+POSSIBLE ERRORS AND SOLUTIONS:
+
+1. Unable to create a restore point
+   - System Protection must be enabled on your C: drive.
+   - Go to: Control Panel > System > System Protection > Configure > Turn on.
+
+2. "Access denied" when running optimizations
+   - Run the program as administrator (right-click → "Run as administrator").
+
+3. The interface looks broken or fails to load
+   - Make sure you have updated Windows 10 or 11.
+   - Install the latest updates for .NET Framework and Visual C++ Redistributable.
+
+4. Optimizations have no effect
+   - Some changes require restarting your computer.
+   - Optimizations won’t "magically speed up" very old PCs, but they do improve stability and free up resources.
+
+5. Can I undo the changes?
+   - Yes: use the Restore Point created before optimization.
+   - Or manually restore default settings (the program never modifies critical files without warning).
+
+ADDITIONAL NOTES:
+- This program is specially designed for low-resource PCs (e.g., Intel Celeron, 2–4 GB RAM, HDD).
+- "High-risk" optimizations are disabled by default.
+- The risk level (Low / Medium / High) is always displayed for each option.
+- The program never sends data to external servers.
+
+WHERE TO GET HELP OR REPORT ISSUES?
+- GitHub: https://github.com/Crackdroid926/OptimizerU  
+- Issues: https://github.com/Crackdroid926/OptimizerU/issues  
+
+Thank you for using OptimizerU
