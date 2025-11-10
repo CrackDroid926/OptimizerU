@@ -1,0 +1,10 @@
+{
+    "os_name": "Windows",
+    "os_version": "10.0.19045",
+    "os_build": "10",
+    "architecture": "x64",
+    "ram_gb": 3,
+    "disk_type": "HDD",
+    "gpu": "Unknown",
+    "detected_at": "2025-11-10T10:43:01.834797"
+}
